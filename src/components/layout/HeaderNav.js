@@ -6,15 +6,12 @@ export const HeaderNav = () => {
     <header className='header'>
         <div className='branding-socials'>
             <div className='branding'>
-                <h3>Vianey Linares</h3>
+                <h1>Vianey Linares</h1>
                 <span>Software Developer</span>
-            </div>
-            <div className='socials'>
-                Socials
             </div>
         </div>
         
-        <nav>
+        <nav className='navigation'>
             <ul>
                 <li>
                     <NavLink to="/home" className={({isActive}) => isActive ? "active" : ""}>Home</NavLink>
