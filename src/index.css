@@ -114,9 +114,13 @@ body{
 .content > div{
   display: flex;
   flex-wrap: wrap;
+  height: 100%;
+  align-items: center;
 }
 
 .left,
 .right{
   flex-basis: 50%;
+  display: flex;
+  justify-content: center;
 }
