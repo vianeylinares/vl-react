@@ -40,12 +40,37 @@ body{
   height: 100%;
 }
 
+.content{
+  overflow: hidden;
+  overflow-y: auto;
+}
+
 .strong{
   font-weight: bold;
 }
 
 .italic{
   font-style: italic;
+}
+
+/* width */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  display: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  display: none;
 }
 
 
@@ -114,11 +139,6 @@ body{
 
 /* Main content area */
 
-.content{
-  overflow: hidden;
-  overflow-y: auto;
-}
-
 .content > div{
   display: flex;
   flex-wrap: wrap;
@@ -126,41 +146,44 @@ body{
   align-items: center;
 }
 
-.left,
-.right{
-  flex-basis: 50%;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
 
 /* Home */
 
-.home .right p{
-  width: 450px;
-  text-align: center;
+.welcome{
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;;
+}
+
+.welcome h2,
+.welcome p{
+  flex-basis: 100%;
+}
+
+.welcome h2{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.welcome p{
+  max-width: 600px;
   font-size: 20px;
 }
 
 
 /* About */
 
-.about .left,
-.about .right {
-  flex-basis: 50%;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  flex-direction: column;
+.about{
   align-content: center;
 }
 
-.about .right p{
-  width: 450px;
+.about p{
+  flex-basis: 100%;
+  margin-bottom: 20px;
   text-align: center;
   font-size: 20px;
-  margin-bottom: 20px;
 }
 
 
@@ -174,9 +197,41 @@ body{
   flex-direction: column;
   align-content: center;
 }
+
+.work .left,
+.work .right{
+  height: 100%;
+}
+
 .work .left p{
   width: 450px;
   text-align: center;
   font-size: 20px;
   margin-bottom: 20px;
+}
+
+.work-item{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.work-item .year,
+.work-item .title{
+  display: inline-block;
+}
+
+.work-item .title{
+  font-size: 40px;
+}
+
+.work-item .year{
+  margin-right: 10px;
+}
+
+.work-item .type,
+.work-item .description,
+.work-item .technologies{
+  display: block;
+  margin-bottom: 5px;
 }
