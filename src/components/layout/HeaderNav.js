@@ -1,7 +1,33 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 export const HeaderNav = () => {
+
+    const mainMenuActivation = () => {
+        let mainMenu = document.getElementById("main-menu");
+        if(mainMenu.style.display === "block"){
+            mainMenu.style.display = "none";
+        } else {
+            mainMenu.style.display = "block";
+        }
+    }
+
+    window.onresize = () => {
+
+        let mobileMenu = document.getElementById("mobile-menu");
+        let mobileMenuStyle = window.getComputedStyle(mobileMenu);
+
+        if(mobileMenuStyle.display === 'none'){
+            document.querySelector("#main-menu").style.display = 'block';
+        }
+        if(mobileMenuStyle.display === 'block'){
+            document.querySelector("#main-menu").style.display = 'none';
+        }
+
+    }
+
   return (
     <header className='header'>
         <div className='branding-socials'>
@@ -9,9 +35,12 @@ export const HeaderNav = () => {
                 <h1>Vianey Linares</h1>
                 <span>Software Developer</span>
             </div>
+            <div id="mobile-menu" className="icon" onClick={mainMenuActivation}>
+                <FontAwesomeIcon icon={faBars} />
+            </div>
         </div>
         
-        <nav className='navigation'>
+        <nav id='main-menu' className='navigation'>
             <ul>
                 <li>
                     <NavLink to="/home" className={({isActive}) => isActive ? "active" : ""}>Home</NavLink>
