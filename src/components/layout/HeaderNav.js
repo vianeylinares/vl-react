@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { CalculateContentArea } from '../helpers/CalculateContentArea';
 
 export const HeaderNav = () => {
 
@@ -25,6 +26,8 @@ export const HeaderNav = () => {
         if(mobileMenuStyle.display === 'block'){
             document.querySelector("#main-menu").style.display = 'none';
         }
+
+        CalculateContentArea();
 
     }
 
