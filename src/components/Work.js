@@ -5,7 +5,7 @@ export const Work = () => {
   return (
     <div className="work">
       {
-        projects.map(project => {
+        projects.sort((a, b) => (a.id < b.id) ? 1 : -1).map(project => {
           return(
             <article key={project.id} className='work-item'>
               <div>
@@ -14,9 +14,17 @@ export const Work = () => {
                   {project.name}
                 </h2>
               </div>
-              <span className='type'>{project.categories}</span>
-              <span className='description'>{project.description}</span>
-              <span className='technologies'>{project.technology}</span>
+              <p className='type'>{project.categories}</p>
+              <p className='description'>{project.description}</p>
+              <p className='technologies'>
+                {
+                  project.technologies.map(tech => {
+                    return(
+                      <span>{tech}</span>
+                    );
+                  })
+                }
+              </p>
             </article>
           );
         })

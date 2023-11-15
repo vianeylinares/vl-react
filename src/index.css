@@ -286,31 +286,10 @@ body{
 
 /* Work */
 
-.work .left{
-  flex-basis: 50%;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-content: center;
-}
-
-.work .left,
-.work .right{
-  height: 100%;
-}
-
-.work .left p{
-  width: 450px;
-  text-align: center;
-  font-size: 20px;
-  margin-bottom: 20px;
-}
-
 .work-item{
   width: 100%;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .work-item .year,
@@ -329,7 +308,7 @@ body{
 
 .work-item .year,
 .work-item .company{
-  color: var(--light-yellow);
+  color: var(--light-gray);
 }
 
 .work-item .type,
@@ -340,11 +319,25 @@ body{
 }
 
 .work-item .type{
-  color: var(--light-brown);
+  color: var(--light-yellow);
+}
+
+.work-item .technologies span{
+  margin: 10px 15px;
+  padding: 5px 10px;
+  background-color: var(--light-brown);
+  color: var(--light-gray);
+  font-size: 70%;
+  border-radius: 50px;
+  font-weight: bold;
+  display: inline-block;
 }
 
 @media(max-width: 767px){
   .work-item .title{
     font-size: 8vw;
+  }
+  .work-item .technologies span{
+    margin: 10px 10px;
   }
 }
