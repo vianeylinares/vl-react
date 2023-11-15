@@ -9,7 +9,7 @@ export const Work = () => {
           return(
             <article key={project.id} className='work-item'>
               <div>
-                <span className='year'>{project.year}</span>
+                <span className='year'>{project.year}</span> | <span className='company'>{project.company}</span>
                 <h2 className='title'>
                   {project.name}
                 </h2>

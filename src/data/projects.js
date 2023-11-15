@@ -6,7 +6,8 @@ export const projects = [
         'technology': 'HTML, CSS, JS, PHP, MySQL',
         'categories': 'Website',
         'year': '2013',
-        'description': 'Website that published personal projects.'
+        'description': 'Website that published personal projects.',
+        'company': 'Personal project'
     },
     {
         'id': '2',
@@ -15,7 +16,8 @@ export const projects = [
         'technology': 'HTML, CSS, JS, PHP, MySQL, CodeIgniter',
         'categories': 'Mobile website',
         'year': '2014',
-        'description': 'Mobile website for a students exchange company to be used as a complement to corporate site.'
+        'description': 'Mobile website for a students exchange company to be used as a complement to corporate site.',
+        'company': 'ROI Rangers'
     },
     {
         'id': '3',
@@ -24,7 +26,8 @@ export const projects = [
         'technology': 'HTML, CSS, JS, PHP, MySQL, CodeIgniter',
         'categories': 'Report application',
         'year': '2015',
-        'description': 'Manage system that generated reports and displayed data.'
+        'description': 'Manage system that generated reports and displayed data.',
+        'company': 'Zite Pro'
     },
     {
         'id': '4',
@@ -33,7 +36,8 @@ export const projects = [
         'technology': 'HTML, CSS, JS, PHP, MySQL, CodeIgniter',
         'categories': 'Microsite managing aplication',
         'year': '2014',
-        'description': 'Microsite creating and managing aplication that displays business ads and offers to generate discount coupons.'
+        'description': 'Microsite creating and managing aplication that displays business ads and offers to generate discount coupons.',
+        'company': 'Click MX'
     },
     {
         'id': '5',
@@ -42,7 +46,8 @@ export const projects = [
         'technology': 'HTML, CSS, JS, PHP, WordPress',
         'categories': 'Website',
         'year': '2013',
-        'description': 'Developed WordPress custom theme.'
+        'description': 'Developed WordPress custom theme.',
+        'company': 'Click MX'
     },
     {
         'id': '6',
@@ -51,7 +56,8 @@ export const projects = [
         'technology': 'HTML, CSS, JS, PHP, MySQL',
         'categories': 'Website',
         'year': '2013',
-        'description': 'Website that published personal projects.'
+        'description': 'Website that published personal projects.',
+        'company': 'Personal project'
     },
     {
         'id': '7',
@@ -60,7 +66,8 @@ export const projects = [
         'technology': 'HTML, CSS, JS, PHP, MySQL, CodeIgniter',
         'categories': 'Mobile website',
         'year': '2014',
-        'description': 'Mobile website for a students exchange company to be used as a complement to corporate site.'
+        'description': 'Mobile website for a students exchange company to be used as a complement to corporate site.',
+        'company': 'ROI Rangers'
     },
     {
         'id': '8',
@@ -69,7 +76,8 @@ export const projects = [
         'technology': 'HTML, CSS, JS, PHP, MySQL, CodeIgniter',
         'categories': 'Report application',
         'year': '2015',
-        'description': 'Manage system that generated reports and displayed data.'
+        'description': 'Manage system that generated reports and displayed data.',
+        'company': 'Zite Pro'
     },
     {
         'id': '9',
@@ -78,7 +86,8 @@ export const projects = [
         'technology': 'HTML, CSS, JS, PHP, MySQL, CodeIgniter',
         'categories': 'Microsite managing aplication',
         'year': '2014',
-        'description': 'Microsite creating and managing aplication that displays business ads and offers to generate discount coupons.'
+        'description': 'Microsite creating and managing aplication that displays business ads and offers to generate discount coupons.',
+        'company': 'Click MX'
     },
     {
         'id': '10',
@@ -87,7 +96,8 @@ export const projects = [
         'technology': 'HTML, CSS, JS, PHP, WordPress',
         'categories': 'Website',
         'year': '2013',
-        'description': 'Developed WordPress custom theme.'
+        'description': 'Developed WordPress custom theme.',
+        'company': 'Click MX'
     },
     
 ];
