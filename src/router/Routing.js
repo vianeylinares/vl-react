@@ -19,6 +19,7 @@ export const Routing = () => {
                 <Route path="home" element={<Home />} />
                 <Route path="about" element={<About />} />
                 <Route path="work" element={<Work />} />
+                <Route path="*" element={<h1 className='heading'>Error 404</h1>} />
             </Routes>
         </section>    
 
