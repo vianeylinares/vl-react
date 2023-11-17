@@ -59,22 +59,22 @@ body{
 
 /* width */
 ::-webkit-scrollbar {
-  display: none;
+  width: 3px; 
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  display: none;
+  background-color: var(--dark-blue);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  display: none;
+  background-color: var(--light-blue);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  display: none;
+  background-color: var(--light-blue);
 }
 
 @media(min-width: 768px) and (max-width: 991px){
@@ -303,7 +303,20 @@ body{
 
 .work-item .title{
   font-size: 3.5vw;
-  color: var(--light-blue)
+  color: var(--light-blue);
+}
+
+.work-item .title span{
+  display: block;
+  font-size: 0.8vw;
+}
+
+.work-item .title sup a,
+.work-item .title sup a:hover{
+  font-size: .8vw;
+  color: var(--light-yellow);
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .work-item .year,
@@ -339,5 +352,12 @@ body{
   }
   .work-item .technologies span{
     margin: 10px 10px;
+  }
+
+  .work-item .title sup a,
+  .work-item .title sup a:hover{
+    font-size: 5.5vw;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
