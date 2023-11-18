@@ -177,7 +177,7 @@ body{
 
   .navigation ul{
     justify-content: center;
-    background-color: var(--dark-blue);
+    background-color: #090529;
     z-index: 10;
     position: relative;
   }

@@ -15,6 +15,15 @@ export const HeaderNav = () => {
         }
     }
 
+    const closeMenu = () => {
+        let mobileMenu = document.getElementById("mobile-menu");
+        let mobileMenuStyle = window.getComputedStyle(mobileMenu);
+
+        if(mobileMenuStyle.display === 'block'){
+            document.querySelector("#main-menu").style.display = 'none';
+        }
+    }
+
     window.onresize = () => {
 
         let mobileMenu = document.getElementById("mobile-menu");
@@ -46,13 +55,13 @@ export const HeaderNav = () => {
         <nav id='main-menu' className='navigation'>
             <ul>
                 <li>
-                    <NavLink to="/home" className={({isActive}) => isActive ? "active" : ""}>Home</NavLink>
+                    <NavLink to="/home" className={({isActive}) => isActive ? "active" : ""} onClick={closeMenu}>Home</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/about" className={({isActive}) => isActive ? "active" : ""}>About</NavLink>
+                    <NavLink to="/about" className={({isActive}) => isActive ? "active" : ""} onClick={closeMenu}>About</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/work" className={({isActive}) => isActive ? "active" : ""}>Work</NavLink>
+                    <NavLink to="/work" className={({isActive}) => isActive ? "active" : ""} onClick={closeMenu}>Work</NavLink>
                 </li>
             </ul>
         </nav>
