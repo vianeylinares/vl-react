@@ -29,7 +29,7 @@ export const projects = [
         'technologies': ['HTML', 'CSS', 'JS', 'PHP', 'MySQL', 'CodeIgniter'],
         'categories': 'Mobile website',
         'year': 2014,
-        'description': 'Mobile website for a students exchange company. Used as a local services complement to corporate site. This included admin section and CRUD functionality.',
+        'description': 'Mobile website for a student exchange company. Used as a local service complement to the corporate site. This included dashboard section and CRUD functionality.',
         'company': 'ROI Rangers'
     },
     {
@@ -40,7 +40,7 @@ export const projects = [
         'technologies': ['HTML', 'CSS', 'JS', 'PHP', 'MySQL', 'CodeIgniter', 'Mailchimp API'],
         'categories': 'Microsite managing aplication',
         'year': 2014,
-        'description': 'Microsite creating and managing aplication that displays ads and offers and generates discount coupons. This included admin section, CRUD functionality and Mailchimp API connection.',
+        'description': 'Microsite creation application that displays ads and offers and generates discount coupons. This included a dashboard section, CRUD functionality and Mailchimp API connection.',
         'company': 'Click MX'
     }, 
     {
@@ -51,7 +51,7 @@ export const projects = [
         'technologies': ['HTML', 'CSS', 'JS', 'jQuery', 'PHP', 'WordPress', 'Mailchimp API'],
         'categories': 'Website',
         'year': 2015,
-        'description': 'Developed WordPress custom theme from scratch, including custom theme functionality and custom post-types to handle diverse company informational logistics and content.',
+        'description': 'Developed custom WordPress theme from scratch, including custom theme functionality and custom post-types to handle diverse information about the event.',
         'company': 'Click MX'
     },
     {
@@ -62,7 +62,7 @@ export const projects = [
         'technologies': ['HTML', 'CSS', 'JS', 'PHP', 'MySQL', 'CodeIgniter'],
         'categories': 'Report application',
         'year': 2015,
-        'description': 'Management system that generated reports and displayed data. Project created based on a SQL database design. This had CRUD functionality.',
+        'description': 'Management system that generated reports and displayed data. The system was created based on a SQL database design. This had CRUD functionality.',
         'company': 'Zite Pro'
     },
     {
@@ -73,7 +73,7 @@ export const projects = [
         'technologies': ['HTML', 'CSS', 'JS', 'jQuery', 'PHP', 'WordPress'],
         'categories': 'WordPress e-learning website',
         'year': 2015,
-        'description': 'Created WordPress website based on a premium theme. Improved online course management processing by establishing simplified student and online course relational bonds. This simplified content and student management for system administrators.',
+        'description': 'Website based on a premium theme. Improved online course management processing by establishing simplified student and online course relational bonds.',
         'company': 'MEM'
     },
     {
@@ -95,7 +95,7 @@ export const projects = [
         'technologies': ['HTML', 'CSS', 'JS', 'jQuery', 'AJAX', 'PHP', 'WordPress'],
         'categories': 'WordPress custom plugin',
         'year': 2016,
-        'description': 'WordPress plugin for a bike ride event registration. The attendees register at the frontend with a custom form. Once the attendee enters the required data and the custom form it’s sent, the system will record the attendee’s data in the DB. Then the system will automatically fill the event custom PDF form. Once the custom PDF form is ready, the system sends it by email to the attendee.',
+        'description': 'WordPress plugin for a bike ride event registration. The attendees register at the frontend with a custom form. Once the attendee enters the required data and the custom form is sent, the system will record the attendee’s data in the DB. Then the system will automatically fill out the event custom PDF form. Once the custom PDF form is ready, the system sends it by email to the attendee.',
         'company': 'Click MX'
     },
     {
@@ -106,7 +106,7 @@ export const projects = [
         'technologies': ['HTML', 'CSS', 'JS', 'PHP', 'WordPress'],
         'categories': 'WordPress custom plugin',
         'year': 2016,
-        'description': 'WP custom plugin that lists online events based on student course enrollment.',
+        'description': 'WordPress plugin that lists online events based on student course enrollment.',
         'company': 'MEM'
     },
     {
@@ -117,7 +117,7 @@ export const projects = [
         'technologies': ['HTML', 'CSS', 'JS', 'jQuery', 'PHP', 'WordPress'],
         'categories': 'WordPress website',
         'year': 2016,
-        'description': 'Created custom WordPress theme based on an HTML template.',
+        'description': 'Custom WordPress theme based on an HTML template.',
         'company': 'Personal project'
     },
     {
@@ -128,7 +128,7 @@ export const projects = [
         'technologies': ['HTML', 'CSS', 'JS', 'PHP', 'WordPress', 'WooCommerce', 'WP Bakery'],
         'categories': 'WordPress/WooCommerce website',
         'year': 2017,
-        'description': 'WordPress/WooCommerce website based on premium theme.',
+        'description': 'Website based on premium theme.',
         'company': 'Rebeldes Marketing Online'
     },
     {
@@ -139,7 +139,7 @@ export const projects = [
         'technologies': ['HTML', 'CSS', 'JS', 'PHP', 'WordPress'],
         'categories': 'WordPress custom plugin',
         'year': 2017,
-        'description': 'WordPress custom plugin for Spanish language test and result assessment. At the frontend, different questions are displayed with radio-type input answers. The user takes the test and the result is sent by email. The data collected is registered for future analysis and contact.',
+        'description': 'WordPress plugin that performs Spanish language test and result assessment. At the frontend, different questions are displayed with radio-type input answers. The user takes the test and the result is sent by email. The data collected is registered for future analysis and contact.',
         'company': 'Rebeldes Marketing Online'
     },
     {
@@ -150,7 +150,7 @@ export const projects = [
         'technologies': ['HTML', 'CSS', 'JS', 'jQuery', 'Shopify'],
         'categories': 'Shopify Website',
         'year': 2018,
-        'description': 'Created Shopify website based on a premium theme.',
+        'description': 'Website based on a premium theme.',
         'company': 'Incubadora Despegue'
     },
     {
@@ -172,7 +172,7 @@ export const projects = [
         'technologies': ['HTML', 'CSS', 'JS', 'jQuery', 'PHP', 'WordPress'],
         'categories': 'WordPress website',
         'year': 2018,
-        'description': 'WordPress website based on a premium theme.',
+        'description': 'Website based on a premium theme.',
         'company': 'MEM'
     },
     {
@@ -183,7 +183,7 @@ export const projects = [
         'technologies': ['HTML', 'CSS', 'JS', 'jQuery', 'PHP', 'WordPress'],
         'categories': 'WordPress e-learning website',
         'year': 2018,
-        'description': 'WordPress website based on a premium theme. Added custom funtionality for user profile space that lists and assigns user-specific documentation and content.',
+        'description': 'Website based on a premium theme. Added custom functionality for user profile space that lists and assigns user-specific documentation and content.',
         'company': 'MEM'
     },
     {
@@ -194,7 +194,7 @@ export const projects = [
         'technologies': ['HTML', 'CSS', 'JS', 'jQuery', 'PHP', 'WordPress Multisite'],
         'categories': 'WordPress custom plugin',
         'year': 2019,
-        'description': 'WordPress plugin that creates three different types of specific ads/offers (Simple, Basic, Medium) to display in different subdomains. Each subdomain/microsite presents an ad/offer related to a specific company. This is a revamp of the Nugget project.',
+        'description': 'WordPress plugin that creates three different types of ads/offers. The pages that display the ads are part of specific subdomains within a business network. This plugin is a revamp of the Nugget project.',
         'company': 'Promoción colaborativa IM'
     },
     {
@@ -216,7 +216,7 @@ export const projects = [
         'technologies': ['HTML', 'CSS', 'JS', 'jQuery', 'PHP', 'WordPress', 'WooCommerce', 'Elementor'],
         'categories': 'WordPress/WooCommerce website',
         'year': 2022,
-        'description': 'WordPress website based on premium theme.',
+        'description': 'Website based on premium theme.',
         'company': 'Incubadora Despegue'
     },
     {
@@ -227,7 +227,7 @@ export const projects = [
         'technologies': ['HTML', 'CSS', 'JS', 'jQuery', 'PHP', 'WordPress', 'Magnific Popup'],
         'categories': 'WordPress custom plugin',
         'year': 2023,
-        'description': 'WordPress plugin that would display in the frontend a newsletter form, including a privacy policy acceptance checkbox. If the user checks the checkbox, the popup activates and shows the privacy policy text. This plugin is a revamp of the Form and Popup plugin.',
+        'description': 'WordPress plugin that displays in the frontend a newsletter form, including a privacy policy acceptance checkbox. If the user checks the checkbox, the popup activates and shows the privacy policy text. This plugin is a revamp of the Form and Popup plugin.',
         'company': 'Personal project'
     },
     {
@@ -238,7 +238,7 @@ export const projects = [
         'technologies': ['HTML', 'CSS', 'JS', 'jQuery', 'PHP', 'WordPress', 'Elementor'],
         'categories': 'WordPress website',
         'year': 2022,
-        'description': 'WordPress website based on premium theme.',
+        'description': 'Website based on premium theme.',
         'company': 'Incubadora Despegue'
     },
     {
@@ -260,7 +260,7 @@ export const projects = [
         'technologies': ['HTML', 'CSS', 'JS', 'jQuery', 'PHP', 'WordPress', 'WP customizer', 'Elementor', 'Elementor custom widgets', 'WooCommerce'],
         'categories': 'WordPress/WooCommerce website',
         'year': 2023,
-        'description': 'WordPress custom theme created from scratch. This is a revamping for Ruta del Vino project.',
+        'description': 'Custom WordPress theme created from scratch. This is as a revamping of the Ruta del Vino project.',
         'company': 'Personal project'
     },
     {

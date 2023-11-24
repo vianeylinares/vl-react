@@ -423,8 +423,20 @@ p.strong.italic{
 
 /* Contact */
 
+.contact-title{
+  font-size: 3vw;
+  margin-bottom: 20px;
+  color: var(--light-blue);
+}
+
 .contact p{
   flex-basis: 100%;
   margin-bottom: 20px;
   text-align: center;
+}
+
+@media(max-width: 767px){
+  .contact-title{
+    font-size: 5vw;
+  }
 }

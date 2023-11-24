@@ -6,7 +6,7 @@ export const Home = () => {
       <div className='welcome'>
         <h2>Welcome</h2>
         <p>
-          Hi, I am Vianey. I am passionate about technology, development and, solving problems. Currently, I am working as a WordPress Developer.
+          Hi, I am Vianey. I am passionate about technology, web development and solving problems.
         </p>
       </div>
     </div>

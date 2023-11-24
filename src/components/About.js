@@ -8,16 +8,11 @@ export const About = () => {
           During my career, I have worked in different industries solving diverse problems.
         </p>
         <p>
-          I have worked as Employee, Freelancer and Independent Contractor.
+          I have built simple and complex applications, websites, and blogs, covering WooCommerce stores and multilingual websites.<br/>
+          Also, I have developed custom WordPress plugins and themes.
         </p>
         <p>
-          I have built simple and complex applications, websites, and blogs, covering WooCommerce stores and multilingual websites.
-        </p>
-        <p>
-          I have developed WordPress custom plugins and themes.
-        </p>
-        <p>
-          Besides working with WordPress and PHP, I have also experimented with other technologies such as: Drupal, Shopify, Joomla and React.
+          Besides working with WordPress, I have also experimented with other technologies such as Drupal, Shopify, CodeIgniter and React.
         </p>
         <p className='margin-bottom-p'>
           I have also performed website maintenance and correction of functionality problems.
@@ -29,7 +24,7 @@ export const About = () => {
           I love cooking, drawing, reading and writing. Also, I love movies and TV Series.
         </p>
         <p>
-          I like to workout and walk my dog.
+          I like working out and walking my dog.
         </p>
       </div>
     </div>
