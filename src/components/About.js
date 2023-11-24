@@ -12,7 +12,7 @@ export const About = () => {
           Also, I have developed custom WordPress plugins and themes.
         </p>
         <p>
-          Besides working with WordPress, I have also experimented with other technologies such as Drupal, Shopify, CodeIgniter and React.
+          Besides working with WordPress, I have also worked with other technologies such as Drupal, Shopify, CodeIgniter and React.
         </p>
         <p className='margin-bottom-p'>
           I have also performed website maintenance and correction of functionality problems.
