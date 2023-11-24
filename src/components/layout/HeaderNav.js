@@ -61,7 +61,7 @@ export const HeaderNav = () => {
                     <NavLink to="/about" className={({isActive}) => isActive ? "active" : ""} onClick={closeMenu}>About</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/work" className={({isActive}) => isActive ? "active" : ""} onClick={closeMenu}>Work</NavLink>
+                    <NavLink to="/work" className={({isActive}) => isActive ? "active" : ""} onClick={closeMenu}>Portfolio</NavLink>
                 </li>
             </ul>
         </nav>

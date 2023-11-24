@@ -161,6 +161,10 @@ body{
   display: block;
 }
 
+#main-menu ul li{
+  list-style-type: none;
+}
+
 .navigation{
   flex-basis: 50%;
 }
@@ -223,7 +227,7 @@ body{
 
   .navigation ul{
     justify-content: center;
-    background-color: #090529;
+    background-color: var(--dark-blue);
     z-index: 10;
     position: relative;
   }
@@ -276,6 +280,10 @@ body{
   align-items: center;
 }
 
+.margin-bottom-p{
+  margin-bottom: 50px !important;
+}
+
 
 /* Home */
 
@@ -316,7 +324,15 @@ body{
 /* About */
 
 .about{
-  align-content: center;
+  /*align-content: center;*/
+}
+
+.details{
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 .about p{

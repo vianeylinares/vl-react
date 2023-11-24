@@ -125,10 +125,10 @@ export const projects = [
         'name': 'Aguacare',
         'url': '',
         'github': '',
-        'technologies': ['HTML', 'CSS', 'JS', 'PHP', 'WordPress', 'WooCommerce'],
+        'technologies': ['HTML', 'CSS', 'JS', 'PHP', 'WordPress', 'WooCommerce', 'WP Bakery'],
         'categories': 'WordPress/WooCommerce website',
         'year': 2017,
-        'description': 'Website with online store functionality.',
+        'description': 'WordPress/WooCommerce website based on premium theme.',
         'company': 'Rebeldes Marketing Online'
     },
     {
@@ -139,7 +139,7 @@ export const projects = [
         'technologies': ['HTML', 'CSS', 'JS', 'PHP', 'WordPress'],
         'categories': 'WordPress custom plugin',
         'year': 2017,
-        'description': 'WP custom plugin for Spanish language test and result assessment. At the frontend, different questions are displayed with radio-type input answers. The user takes the test and the result is sent by email. The data collected is registered for future analysis and contact.',
+        'description': 'WordPress custom plugin for Spanish language test and result assessment. At the frontend, different questions are displayed with radio-type input answers. The user takes the test and the result is sent by email. The data collected is registered for future analysis and contact.',
         'company': 'Rebeldes Marketing Online'
     },
     {
@@ -194,7 +194,7 @@ export const projects = [
         'technologies': ['HTML', 'CSS', 'JS', 'jQuery', 'PHP', 'WordPress Multisite'],
         'categories': 'WordPress custom plugin',
         'year': 2019,
-        'description': 'WordPress plugin create three different types of specific ads/offers (Simple, Basic, Medium) to display in different subdomains. Each subdomain/microsite presents an ad/offer related to a specific company. This is a revamp of the Nugget project.',
+        'description': 'WordPress plugin that creates three different types of specific ads/offers (Simple, Basic, Medium) to display in different subdomains. Each subdomain/microsite presents an ad/offer related to a specific company. This is a revamp of the Nugget project.',
         'company': 'Promoción colaborativa IM'
     },
     {
@@ -213,10 +213,10 @@ export const projects = [
         'name': 'Termya',
         'url': '',
         'github': '',
-        'technologies': ['HTML', 'CSS', 'JS', 'jQuery', 'PHP', 'WordPress', 'WooCommerce'],
-        'categories': 'WordPress website',
+        'technologies': ['HTML', 'CSS', 'JS', 'jQuery', 'PHP', 'WordPress', 'WooCommerce', 'Elementor'],
+        'categories': 'WordPress/WooCommerce website',
         'year': 2022,
-        'description': 'WordPress based on premium theme.',
+        'description': 'WordPress website based on premium theme.',
         'company': 'Incubadora Despegue'
     },
     {
@@ -235,10 +235,10 @@ export const projects = [
         'name': 'Vidafull',
         'url': '',
         'github': '',
-        'technologies': ['HTML', 'CSS', 'JS', 'jQuery', 'PHP', 'WordPress'],
+        'technologies': ['HTML', 'CSS', 'JS', 'jQuery', 'PHP', 'WordPress', 'Elementor'],
         'categories': 'WordPress website',
         'year': 2022,
-        'description': 'WordPress based on premium theme.',
+        'description': 'WordPress website based on premium theme.',
         'company': 'Incubadora Despegue'
     },
     {
@@ -247,7 +247,7 @@ export const projects = [
         'url': 'https://vianeylinares.com/portfolio/barbershop/',
         'github': 'https://github.com/vianeylinares/barber-shop',
         'technologies': ['HTML', 'CSS', 'JS', 'jQuery', 'PHP', 'WordPress', 'WP customizer'],
-        'categories': 'WordPress custom theme and plugin',
+        'categories': 'WordPress website',
         'year': 2023,
         'description': 'Barbershop WordPress custom theme based in a one page HTML5 template called \'Barber Shop\'. The \'Barber\'s Pole\' plugin was developed to add functionality to the \'Barber Shop\' WordPress theme.',
         'company': 'Personal project'
@@ -258,7 +258,7 @@ export const projects = [
         'url': 'https://vianeylinares.com/portfolio/bikeride/',
         'github': 'https://github.com/vianeylinares/bikeride',
         'technologies': ['HTML', 'CSS', 'JS', 'jQuery', 'PHP', 'WordPress', 'WP customizer', 'Elementor', 'Elementor custom widgets', 'WooCommerce'],
-        'categories': 'WordPress custom theme and plugin',
+        'categories': 'WordPress/WooCommerce website',
         'year': 2023,
         'description': 'WordPress custom theme created from scratch. This is a revamping for Ruta del Vino project.',
         'company': 'Personal project'

@@ -14,7 +14,7 @@ export const Footer = () => {
                 <Link to="mailto:me@vianeylinares.com" target="_blank">
                     <FontAwesomeIcon icon={faEnvelope} />
                 </Link>
-                <Link to="https://linkedin.com/vianeylinares/" target="_blank">
+                <Link to="https://linkedin.com/in/vianeylinares/" target="_blank">
                     <FontAwesomeIcon icon={faLinkedin} />
                 </Link>
                 <Link to="https://medium.com/@the-chaos-developer/" target="_blank">
