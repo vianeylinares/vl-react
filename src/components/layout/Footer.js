@@ -20,9 +20,9 @@ export const Footer = () => {
                 <Link to="https://twitter.com/vl_devs/" target="_blank">
                     <FontAwesomeIcon icon={faTwitter} />
                 </Link>
-                <Link to="https://medium.com/@the-chaos-developer/" target="_blank">
+                {/*<Link to="https://medium.com/@the-chaos-developer/" target="_blank">
                     <FontAwesomeIcon icon={faMedium} />
-                </Link>
+                </Link>*/}
             </div>
     </div>
   )
