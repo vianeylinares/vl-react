@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin, faGithub, faMedium } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub, faMedium, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 export const Footer = () => {
   return (
@@ -16,6 +16,9 @@ export const Footer = () => {
                 </Link>
                 <Link to="https://linkedin.com/in/vianeylinares/" target="_blank">
                     <FontAwesomeIcon icon={faLinkedin} />
+                </Link>
+                <Link to="https://twitter.com/vl_devs/" target="_blank">
+                    <FontAwesomeIcon icon={faTwitter} />
                 </Link>
                 <Link to="https://medium.com/@the-chaos-developer/" target="_blank">
                     <FontAwesomeIcon icon={faMedium} />

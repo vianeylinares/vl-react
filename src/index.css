@@ -284,6 +284,18 @@ body{
   margin-bottom: 50px !important;
 }
 
+p.strong.italic{
+  color: var(--light-blue);
+}
+
+.details{
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
 
 /* Home */
 
@@ -323,26 +335,10 @@ body{
 
 /* About */
 
-.about{
-  /*align-content: center;*/
-}
-
-.details{
-  flex-basis: 100%;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  text-align: center;
-}
-
 .about p{
   flex-basis: 100%;
   margin-bottom: 20px;
   text-align: center;
-}
-
-.about p.strong.italic{
-  color: var(--light-blue);
 }
 
 
@@ -422,4 +418,13 @@ body{
     margin-left: 10px;
     margin-right: 10px;
   }
+}
+
+
+/* Contact */
+
+.contact p{
+  flex-basis: 100%;
+  margin-bottom: 20px;
+  text-align: center;
 }
