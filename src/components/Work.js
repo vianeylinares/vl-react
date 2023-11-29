@@ -25,9 +25,9 @@ export const Work = () => {
               <p className='description'>{project.description}</p>
               <p className='technologies'>
                 {
-                  project.technologies.map(tech => {
+                  project.technologies.map((tech, item) => {
                     return(
-                      <span>{tech}</span>
+                      <span key={item}>{tech}</span>
                     );
                   })
                 }
