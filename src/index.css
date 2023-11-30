@@ -129,9 +129,15 @@ body{
   }
 }
 
-@media(max-width: 767px){
+@media(max-width: 767px) and (orientation: portrait){
   body{
     font-size: 5vw;
+  }
+}
+
+@media(max-width: 767px) and (orientation: landscape){
+  body{
+    font-size: 3vw;
   }
 }
 
@@ -141,7 +147,7 @@ body{
 .header{
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 30px;
+  height: 20%;
 }
 
 .branding-socials{
@@ -196,11 +202,15 @@ body{
   color: var(--light-blue) !important;
 }
 
-@media(max-width: 767px){
+@media(min-width: 768px) and (max-width: 991px)  and (orientation: portrait){
+  .header{
+    height: 10%;
+  }
+}
 
-  .branding-socials,
-  .navigation{
-    flex-basis: 100%;
+@media(max-width: 767px) and (orientation: portrait){
+  .header{
+    height: 15%;
   }
 
   .branding h1{
@@ -209,6 +219,27 @@ body{
 
   .branding span{
     font-size: 6vw;
+  }
+}
+
+@media(max-width: 767px) and (orientation: landscape){
+  .header{
+    height: 20%;
+  }
+
+  .branding h1{
+    font-size: 5vw;
+  }
+
+  .branding span{
+    font-size: 3vw;
+  }
+}
+
+@media(max-width: 767px){
+  .branding-socials,
+  .navigation{
+    flex-basis: 100%;
   }
 
   #mobile-menu{
@@ -252,11 +283,12 @@ body{
 /* Footer */
 
 .footer{
-  position: absolute;
-  bottom: 10px;
-  left: 0;
   width: 100%;
-  text-align: center;
+  height: 6%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: center;
 }
 
 .socials a,
@@ -270,8 +302,32 @@ body{
   font-size: 26px;
 }
 
+@media(min-width: 768px) and (max-width: 991px)  and (orientation: portrait){
+  .footer{
+    height: 10%;
+  }
+}
+
+@media(max-width: 767px) and (orientation: portrait){
+  .footer{
+    height: 7%;
+  }
+}
+
+@media(max-width: 767px) and (orientation: landscape){
+  .footer{
+    height: 10%;
+  }
+}
+
 
 /* Main content area */
+
+.content{
+  height: calc(74% - 20px);
+  margin-top: 20px;
+  box-sizing: border-box;
+}
 
 .content > div{
   display: flex;
@@ -294,6 +350,24 @@ p.strong.italic{
   justify-content: center;
   flex-wrap: wrap;
   text-align: center;
+}
+
+@media(min-width: 768px) and (max-width: 991px)  and (orientation: portrait){
+  .content{
+    height: calc(80% - 20px);
+  }
+}
+
+@media(max-width: 767px) and (orientation: portrait){
+  .content{
+    height: calc(78% - 20px);
+  }
+}
+
+@media(max-width: 767px) and (orientation: landscape){
+  .content{
+    height: calc(70% - 20px);
+  }
 }
 
 
@@ -320,13 +394,21 @@ p.strong.italic{
 
 .welcome p{
   max-width: 33.33%;
-  /*font-size: 20px;*/
 }
 
-@media(max-width: 767px){
+@media(max-width: 767px) and (orientation: portrait){
+  .welcome h2{
+    font-size: 7vw;
+  }
+}
+
+@media(max-width: 767px) and (orientation: landscape){
   .welcome h2{
     font-size: 5vw;
   }
+}
+
+@media(max-width: 767px){
   .welcome p{
     max-width: none;
   }
@@ -404,17 +486,34 @@ p.strong.italic{
   display: inline-block;
 }
 
-@media(max-width: 767px){
+@media(max-width: 767px) and (orientation: landscape){
+  .work-item .title{
+    font-size: 5vw;
+  }
+  .work-item .title sup a,
+  .work-item .title sup a:hover{
+    font-size: 3.5vw;
+  }
+}
+
+@media(max-width: 767px) and (orientation: portrait){
   .work-item .title{
     font-size: 8vw;
   }
+
+  .work-item .title sup a,
+  .work-item .title sup a:hover{
+    font-size: 5.5vw;
+  }
+}
+
+@media(max-width: 767px){
   .work-item .technologies span{
     margin: 10px 10px;
   }
 
   .work-item .title sup a,
   .work-item .title sup a:hover{
-    font-size: 5.5vw;
     margin-left: 10px;
     margin-right: 10px;
   }
@@ -435,8 +534,14 @@ p.strong.italic{
   text-align: center;
 }
 
-@media(max-width: 767px){
+@media(max-width: 767px) and (orientation: landscape){
   .contact-title{
     font-size: 5vw;
+  }
+}
+
+@media(max-width: 767px) and (orientation: portrait){
+  .contact-title{
+    font-size: 7vw;
   }
 }

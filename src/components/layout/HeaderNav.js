@@ -1,27 +1,31 @@
-import { React, useEffect } from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import { CalculateContentArea } from '../helpers/CalculateContentArea';
 
 export const HeaderNav = () => {
 
     const mainMenuActivation = () => {
+
         let mainMenu = document.getElementById("main-menu");
+
         if(mainMenu.style.display === "block"){
             mainMenu.style.display = "none";
         } else {
             mainMenu.style.display = "block";
         }
+
     }
 
     const closeMenu = () => {
+
         let mobileMenu = document.getElementById("mobile-menu");
         let mobileMenuStyle = window.getComputedStyle(mobileMenu);
 
         if(mobileMenuStyle.display === 'block'){
             document.querySelector("#main-menu").style.display = 'none';
         }
+
     }
 
     window.onresize = () => {
@@ -36,13 +40,7 @@ export const HeaderNav = () => {
             document.querySelector("#main-menu").style.display = 'none';
         }
 
-        CalculateContentArea();
-
     }
-
-    useEffect(() => {
-        CalculateContentArea();
-      }, []);
 
   return (
     <header className='header'>
