@@ -417,14 +417,58 @@ p.strong.italic{
 
 /* About */
 
+.about h2{
+  font-size: 3vw;
+  margin-bottom: 20px;
+  color: var(--light-blue);
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .about p{
   flex-basis: 100%;
   margin-bottom: 20px;
   text-align: center;
 }
 
+@media(max-width: 767px) and (orientation: portrait){
+  .about h2{
+    font-size: 7vw;
+  }
+}
+
+@media(max-width: 767px) and (orientation: landscape){
+  .about h2{
+    font-size: 5vw;
+  }
+}
+
 
 /* Work */
+
+.work h2{
+  font-size: 3vw;
+  margin-bottom: 20px;
+  color: var(--light-blue);
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media(max-width: 767px) and (orientation: portrait){
+  .work h2{
+    font-size: 7vw;
+  }
+}
+
+@media(max-width: 767px) and (orientation: landscape){
+  .work h2{
+    font-size: 5vw;
+  }
+}
 
 .work-item{
   width: 100%;

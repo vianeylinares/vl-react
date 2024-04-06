@@ -7,6 +7,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 export const Work = () => {
   return (
     <div className="work">
+      <h2>Portfolio</h2>
       {
         projects.sort((a, b) => (a.id < b.id) ? 1 : -1).map(project => {
           return(

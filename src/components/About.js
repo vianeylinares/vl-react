@@ -3,6 +3,7 @@ import React from 'react';
 export const About = () => {
   return (
     <div className="about">
+      <h2>About</h2>
       <div className='details'>
         <p className='strong italic'>
           During my career, I have worked in different industries solving diverse problems.
