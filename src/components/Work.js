@@ -17,8 +17,8 @@ export const Work = () => {
                 <h3 className='title'>
                   {project.name} 
                   <span>
-                    {project.url !== '' && <sup><a href={project.url} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faExternalLink} /></a></sup>}
-                    {project.github !== '' && <sup><a href={project.github} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a></sup>}
+                    {project.url !== '' && <sup><a href={project.url} target="_blank" rel="noreferrer" title={project.name + ' online page'}><FontAwesomeIcon icon={faExternalLink} /></a></sup>}
+                    {project.github !== '' && <sup><a href={project.github} target="_blank" rel="noreferrer" title={project.name + ' GitHub repository'}><FontAwesomeIcon icon={faGithub} /></a></sup>}
                   </span>
                 </h3>
               </div>
