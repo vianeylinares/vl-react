@@ -486,7 +486,7 @@ p.strong.italic{
 }
 
 .work-item .title{
-  font-size: 3.5vw;
+  font-size: 2vw;
   color: var(--light-blue);
 }
 
@@ -532,7 +532,7 @@ p.strong.italic{
 
 @media(max-width: 767px) and (orientation: landscape){
   .work-item .title{
-    font-size: 5vw;
+    font-size: 4vw;
   }
   .work-item .title sup a,
   .work-item .title sup a:hover{
@@ -542,7 +542,7 @@ p.strong.italic{
 
 @media(max-width: 767px) and (orientation: portrait){
   .work-item .title{
-    font-size: 8vw;
+    font-size: 6vw;
   }
 
   .work-item .title sup a,
