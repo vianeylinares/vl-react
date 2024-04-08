@@ -90,6 +90,12 @@ body{
   }
 }
 
+@media(max-width: 767px){
+  .wrapper{
+    background-image: url(./img/background-home-mobile.jpg);
+  }
+}
+
 .content{
   overflow: hidden;
   overflow-y: auto;
