@@ -6,7 +6,7 @@ export const Home = () => {
     <>
       <Helmet>
         <title>Vianey Linares - Web Developer</title>
-        <meta name="description" content="Web developer, website fixer, WordPress and Internet enthusiast." />
+        <meta name="description" content="Freelance full-stack WordPress developer and website fixer. Experienced in building different types of websites, WooCommerce stores, and application plugins." />
         <meta name="theme-color" content="#008f68" />
         <link rel="canonical" href="https://vianeylinares.com/" />
       </Helmet>
