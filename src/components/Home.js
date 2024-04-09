@@ -14,7 +14,7 @@ export const Home = () => {
         <div className='welcome'>
           <h2>Welcome</h2>
           <p>
-            Hi, I am Vianey. I am passionate about technology, web development and solving problems.
+            Hi, I am Vianey. I am passionate about technology, web development and solving problems. Currently, I work as a freelance full-stack WordPress developer and website fixer.
           </p>
         </div>
       </div>
