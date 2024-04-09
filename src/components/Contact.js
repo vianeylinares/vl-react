@@ -6,7 +6,7 @@ export const Contact = () => {
     <>
         <Helmet>
             <title>Vianey Linares | Full Stack WordPress Developer - Contact</title>
-            <meta name="description" content="Experienced Freelance full-stack WordPress developer contact details, including GitHub, LinkedIn and Twitter profiles and personal e-mail." />
+            <meta name="description" content="Experienced Freelance full stack WordPress developer contact details, including GitHub, LinkedIn and Twitter profiles and personal e-mail." />
             <meta name="theme-color" content="#008f68" />
             <link rel="canonical" href="https://vianeylinares.com/contact" />
         </Helmet>

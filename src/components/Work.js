@@ -10,7 +10,7 @@ export const Work = () => {
     <>
       <Helmet>
         <title>Vianey Linares | Full Stack WordPress Developer - Portfolio</title>
-        <meta name="description" content="Full-stack WordPress developer portfolio listing a diversity of WordPress projects. Also, listing web projects built with other technologies." />
+        <meta name="description" content="Full stack WordPress developer portfolio listing a diversity of WordPress projects. Also, listing web projects built with other technologies." />
         <meta name="theme-color" content="#008f68" />
         <link rel="canonical" href="https://vianeylinares.com/work" />
       </Helmet>
