@@ -47,7 +47,7 @@ export const HeaderNav = () => {
         <div className='branding-socials'>
             <div className='branding'>
                 <h1>Vianey Linares</h1>
-                <span>Web Developer</span>
+                <span>Full Stack WordPress Developer</span>
             </div>
             <div id="mobile-menu" className="icon" onClick={mainMenuActivation}>
                 <FontAwesomeIcon icon={faBars} />

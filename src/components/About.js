@@ -5,7 +5,7 @@ export const About = () => {
   return (
     <>
       <Helmet>
-        <title>Vianey Linares - Web Developer | About</title>
+        <title>Vianey Linares | Full Stack WordPress Developer - About</title>
         <meta name="description" content="Freelance full-stack WordPress developer experienced in approaching diverse types of web projects. Also, fairly experienced in modifying and fixing websites." />
         <meta name="theme-color" content="#008f68" />
         <link rel="canonical" href="https://vianeylinares.com/about" />
