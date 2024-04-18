@@ -595,3 +595,75 @@ p.strong.italic{
     font-size: 7vw;
   }
 }
+
+
+/* Services */
+
+.services{
+  display: flex;
+}
+
+.services h2{
+  font-size: 3vw;
+  margin-bottom: 20px;
+  color: var(--light-blue);
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media(max-width: 767px) and (orientation: portrait){
+  .services h2{
+    font-size: 7vw;
+  }
+}
+
+@media(max-width: 767px) and (orientation: landscape){
+  .services h2{
+    font-size: 5vw;
+  }
+}
+
+.service-item{
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  justify-content: center;
+}
+
+.services h3{
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+
+.services h3{
+  font-size: 2vw;
+  font-weight: 500;
+  color: var(--light-gray);
+}
+
+.services ul{
+  margin-bottom: 40px;
+  display: block;
+  text-align: center;
+  list-style-type: none;
+}
+
+.services ul li{
+  color: var(--light-yellow);
+}
+
+@media(max-width: 767px) and (orientation: landscape){
+  .services h3{
+    font-size: 4vw;
+  }
+}
+
+@media(max-width: 767px) and (orientation: portrait){
+  .services h3{
+    font-size: 5.5vw;
+  }
+}
