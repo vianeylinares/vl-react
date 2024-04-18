@@ -5,7 +5,7 @@ export const projects = [
         'url': '',
         'github': '',
         'technologies': ['HTML', 'CSS', 'JS', 'PHP', 'MySQL'],
-        'categories': 'Website',
+        'categories': 'PHP Website',
         'year': 2013,
         'description': 'Portfolio website with admin section, including CRUD functionality.',
         'company': 'Personal project'
@@ -16,7 +16,7 @@ export const projects = [
         'url': '',
         'github': '',
         'technologies': ['HTML', 'CSS', 'Joomla'],
-        'categories': 'Website modification',
+        'categories': 'Joomla website modification',
         'year': 2014,
         'description': 'Website content modification and restore.',
         'company': 'ROI Rangers'
@@ -49,7 +49,7 @@ export const projects = [
         'url': '',
         'github': '',
         'technologies': ['HTML', 'CSS', 'JS', 'jQuery', 'PHP', 'WordPress', 'Mailchimp API'],
-        'categories': 'Website',
+        'categories': 'WordPres website',
         'year': 2015,
         'description': 'Developed custom WordPress theme from scratch, including custom theme functionality and custom post-types to handle diverse information about the event.',
         'company': 'Click MX'
@@ -148,7 +148,7 @@ export const projects = [
         'url': '',
         'github': '',
         'technologies': ['HTML', 'CSS', 'JS', 'jQuery', 'Shopify'],
-        'categories': 'Shopify Website',
+        'categories': 'Shopify website',
         'year': 2018,
         'description': 'Website based on a premium theme.',
         'company': 'Incubadora Despegue'
