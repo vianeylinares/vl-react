@@ -1,3 +1,22 @@
 # https://www.robotstxt.org/robotstxt.html
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
 User-agent: *
-Disallow:
+Disallow: /nugget/
+
+User-agent: *
+Disallow: /old-website/
+
+User-agent: *
+Disallow: /others/
+
+User-agent: *
+Disallow: /portfolio/
+
+User-agent: *
+Disallow: /references/
