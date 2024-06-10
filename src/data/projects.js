@@ -167,7 +167,7 @@ export const projects = [
     {
         'id': 16,
         'name': 'Project Martina',
-        'url': '',
+        'url': 'https://projectmartina.com/',
         'github': '',
         'technologies': ['HTML', 'CSS', 'JS', 'jQuery', 'PHP', 'WordPress'],
         'categories': 'WordPress website',
@@ -249,7 +249,7 @@ export const projects = [
         'technologies': ['HTML', 'CSS', 'JS', 'jQuery', 'PHP', 'WordPress', 'WP customizer'],
         'categories': 'WordPress website',
         'year': 2023,
-        'description': 'Barbershop WordPress custom theme based in a one page HTML5 template called \'Barber Shop\'. The \'Barber\'s Pole\' plugin was developed to add functionality to the \'Barber Shop\' WordPress theme.',
+        'description': 'Barbershop WordPress custom theme based on a one page HTML5 template called \'Barber Shop\'. The \'Barber\'s Pole\' plugin was developed to add functionality to the \'Barber Shop\' WordPress theme.',
         'company': 'Personal project'
     },
     {
@@ -273,6 +273,17 @@ export const projects = [
         'year': 2023,
         'description': 'Website that features portfolio projects.',
         'company': 'Personal project'
+    },
+    {
+        'id': 26,
+        'name': 'Ilana Ben-Ari',
+        'url': 'https://ilanabenari.com/',
+        'github': '',
+        'technologies': ['HTML', 'CSS', 'JS', 'jQuery', 'WordPress', 'Divi'],
+        'categories': 'WordPress website',
+        'year': 2023,
+        'description': 'Website based on Divi theme.',
+        'company': 'Taken Digital'
     },
     
 ];
