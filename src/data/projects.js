@@ -277,7 +277,7 @@ export const projects = [
     {
         'id': 26,
         'name': 'Ilana Ben-Ari',
-        'url': 'https://ilanabenari.com/',
+        'url': '',
         'github': '',
         'technologies': ['HTML', 'CSS', 'JS', 'jQuery', 'WordPress', 'Divi'],
         'categories': 'WordPress website',
