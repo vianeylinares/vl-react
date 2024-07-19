@@ -2,15 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 export const Footer = () => {
   return (
     <div className="footer">
       <div className='socials'>
-                <Link to="https://github.com/vianeylinares/" target="_blank" rel="nofollow" title="Vianey's GitHub profile">
-                    <FontAwesomeIcon icon={faGithub} />
-                </Link>
                 <Link to="mailto:me@vianeylinares.com" target="_blank" rel="nofollow" title="Vianey's e-mail">
                     <FontAwesomeIcon icon={faEnvelope} />
                 </Link>

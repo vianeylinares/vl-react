@@ -274,16 +274,5 @@ export const projects = [
         'description': 'Website that features portfolio projects.',
         'company': 'Personal project'
     },
-    {
-        'id': 26,
-        'name': 'Ilana Ben-Ari',
-        'url': '',
-        'github': '',
-        'technologies': ['HTML', 'CSS', 'JS', 'jQuery', 'WordPress', 'Divi'],
-        'categories': 'WordPress website',
-        'year': 2023,
-        'description': 'Website based on Divi theme.',
-        'company': 'Taken Digital'
-    },
     
 ];
