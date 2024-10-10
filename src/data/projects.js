@@ -67,28 +67,6 @@ export const projects = [
     },
     {
         'id': 7,
-        'name': 'El Instituto de la Emprendedora Online',
-        'url': '',
-        'github': '',
-        'technologies': ['HTML', 'CSS', 'JS', 'jQuery', 'PHP', 'WordPress'],
-        'categories': 'WordPress e-learning website',
-        'year': 2015,
-        'description': 'Website based on a premium theme. Improved online course management processing by establishing simplified student and online course relational bonds.',
-        'company': 'MEM'
-    },
-    {
-        'id': 8,
-        'name': 'Rebeldes Training Camp',
-        'url': '',
-        'github': '',
-        'technologies': ['HTML', 'CSS', 'JS', 'PHP', 'WordPress'],
-        'categories': 'WordPress e-learning website modification',
-        'year': 2016,
-        'description': 'Revamped online course registration, display, and management. Online course creation and publication became quicker and easier for content managers at WordPress Dashboard. At the frontend, the online course display became automated.',
-        'company': 'Rebeldes Marketing Online'
-    },
-    {
-        'id': 9,
         'name': 'Bikeride Event Registration',
         'url': '',
         'github': 'https://github.com/vianeylinares/bikeride-event-registration',
@@ -99,7 +77,7 @@ export const projects = [
         'company': 'Click MX'
     },
     {
-        'id': 10,
+        'id': 8,
         'name': 'IEO - Events',
         'url': '',
         'github': '',
@@ -110,7 +88,7 @@ export const projects = [
         'company': 'MEM'
     },
     {
-        'id': 11,
+        'id': 9,
         'name': 'vianeylinares.com (2nd Edition)',
         'url': '',
         'github': '',
@@ -121,40 +99,7 @@ export const projects = [
         'company': 'Personal project'
     },
     {
-        'id': 12,
-        'name': 'Aguacare',
-        'url': '',
-        'github': '',
-        'technologies': ['HTML', 'CSS', 'JS', 'PHP', 'WordPress', 'WooCommerce', 'WP Bakery'],
-        'categories': 'WordPress/WooCommerce website',
-        'year': 2017,
-        'description': 'Website based on premium theme.',
-        'company': 'Rebeldes Marketing Online'
-    },
-    {
-        'id': 13,
-        'name': 'Spanish Zoom - language level',
-        'url': '',
-        'github': '',
-        'technologies': ['HTML', 'CSS', 'JS', 'PHP', 'WordPress'],
-        'categories': 'WordPress custom plugin',
-        'year': 2017,
-        'description': 'WordPress plugin that performs Spanish language test and result assessment. At the frontend, different questions are displayed with radio-type input answers. The user takes the test and the result is sent by email. The data collected is registered for future analysis and contact.',
-        'company': 'Rebeldes Marketing Online'
-    },
-    {
-        'id': 14,
-        'name': 'Ayo Nature',
-        'url': '',
-        'github': '',
-        'technologies': ['HTML', 'CSS', 'JS', 'jQuery', 'Shopify'],
-        'categories': 'Shopify website',
-        'year': 2018,
-        'description': 'Website based on a premium theme.',
-        'company': 'Incubadora Despegue'
-    },
-    {
-        'id': 15,
+        'id': 10,
         'name': 'Form and Popup',
         'url': '',
         'github': 'https://github.com/vianeylinares/form-and-popup',
@@ -165,7 +110,7 @@ export const projects = [
         'company': 'MEM'
     },
     {
-        'id': 16,
+        'id': 11,
         'name': 'Project Martina',
         'url': 'https://projectmartina.com/',
         'github': '',
@@ -176,7 +121,7 @@ export const projects = [
         'company': 'MEM'
     },
     {
-        'id': 17,
+        'id': 12,
         'name': 'Project Martina - Método',
         'url': '',
         'github': '',
@@ -187,7 +132,7 @@ export const projects = [
         'company': 'MEM'
     },
     {
-        'id': 18,
+        'id': 13,
         'name': 'Nugget WP',
         'url': '',
         'github': '',
@@ -198,7 +143,7 @@ export const projects = [
         'company': 'Promoción colaborativa IM'
     },
     {
-        'id': 19,
+        'id': 14,
         'name': 'Tabula Rasa',
         'url': '',
         'github': '',
@@ -209,18 +154,7 @@ export const projects = [
         'company': 'Promoción colaborativa IM'
     },
     {
-        'id': 20,
-        'name': 'Termya',
-        'url': '',
-        'github': '',
-        'technologies': ['HTML', 'CSS', 'JS', 'jQuery', 'PHP', 'WordPress', 'WooCommerce', 'Elementor'],
-        'categories': 'WordPress/WooCommerce website',
-        'year': 2022,
-        'description': 'Website based on premium theme.',
-        'company': 'Incubadora Despegue'
-    },
-    {
-        'id': 21,
+        'id': 15,
         'name': 'Privacy popup on form',
         'url': '',
         'github': 'https://github.com/vianeylinares/privacy-popup-on-form',
@@ -231,18 +165,7 @@ export const projects = [
         'company': 'Personal project'
     },
     {
-        'id': 22,
-        'name': 'Vidafull',
-        'url': '',
-        'github': '',
-        'technologies': ['HTML', 'CSS', 'JS', 'jQuery', 'PHP', 'WordPress', 'Elementor'],
-        'categories': 'WordPress website',
-        'year': 2022,
-        'description': 'Website based on premium theme.',
-        'company': 'Incubadora Despegue'
-    },
-    {
-        'id': 23,
+        'id': 16,
         'name': 'Barbershop and Barber\'s pole',
         'url': 'https://vianeylinares.com/portfolio/barbershop/',
         'github': 'https://github.com/vianeylinares/barber-shop',
@@ -253,7 +176,7 @@ export const projects = [
         'company': 'Personal project'
     },
     {
-        'id': 24,
+        'id': 17,
         'name': 'Bikeride',
         'url': 'https://vianeylinares.com/portfolio/bikeride/',
         'github': 'https://github.com/vianeylinares/bikeride',
@@ -264,7 +187,7 @@ export const projects = [
         'company': 'Personal project'
     },
     {
-        'id': 25,
+        'id': 18,
         'name': 'vianeylinares.com (5th Edition)',
         'url': '',
         'github': 'https://github.com/vianeylinares/vl-react',
