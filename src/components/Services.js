@@ -17,14 +17,12 @@ export const Services = () => {
                     WordPress development
                 </h3>
                 <ul>
-                    <li>Websites and blogs</li>
                     <li>Websites based on existing HTML template</li>
                     <li>Websites based on premium and child themes</li>
                     <li>Websites starting from scratch</li>
                     <li>Websites based on Elementor builder</li>
                     <li>WooCommerce stores</li>
-                    <li>Theme development</li>
-                    <li>Plugin development</li>
+                    <li>Theme and plugin development</li>
                 </ul>
             </div>
             <div class="service-item">
