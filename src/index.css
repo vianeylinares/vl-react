@@ -262,7 +262,7 @@ body{
   z-index: 300;
   transform: translateZ(0);*/
 
-  &:before {
+  /*&:before {
     content: "";
     top: -10rem;
     left: -10rem;
@@ -293,7 +293,7 @@ body{
     80% { transform: translate3d(-9rem,1rem,0) }
     90% { transform: translate3d(6rem,-5rem,0) }
     to { transform: translate3d(-7rem,0,0) }
-  }
+  }*/
 }
 
 @media(max-width: 767px){
