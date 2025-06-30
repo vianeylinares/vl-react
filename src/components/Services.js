@@ -21,6 +21,7 @@ export const Services = () => {
                     <li>Websites based on premium and child themes</li>
                     <li>Websites starting from scratch</li>
                     <li>Websites based on Elementor builder</li>
+                    <li>Custom Elementor widgets</li>
                     <li>WooCommerce stores</li>
                     <li>Theme and plugin development</li>
                 </ul>
