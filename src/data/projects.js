@@ -167,7 +167,7 @@ export const projects = [
     {
         'id': 16,
         'name': 'Barbershop and Barber\'s pole',
-        'url': 'https://vianeylinares.com/portfolio/barbershop/',
+        'url': 'https://devbucket.xyz/portfolio/barbershop/',
         'github': 'https://github.com/vianeylinares/barber-shop',
         'technologies': ['HTML', 'CSS', 'JS', 'jQuery', 'PHP', 'WordPress', 'WP customizer'],
         'categories': 'WordPress website',
@@ -178,7 +178,7 @@ export const projects = [
     {
         'id': 17,
         'name': 'Bikeride',
-        'url': 'https://vianeylinares.com/portfolio/bikeride/',
+        'url': 'https://devbucket.xyz/portfolio/bikeride/',
         'github': 'https://github.com/vianeylinares/bikeride',
         'technologies': ['HTML', 'CSS', 'JS', 'jQuery', 'PHP', 'WordPress', 'WP customizer', 'Elementor', 'Elementor custom widgets', 'WooCommerce'],
         'categories': 'WordPress/WooCommerce website',
