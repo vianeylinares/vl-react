@@ -2,7 +2,8 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 
 export const Services = () => {
-  return (
+    window.location.href = 'https://services.vianeylinares.com/';
+  /*return (
     <>
         <Helmet>
             <title>Vianey Linares | WordPress Developer - Services</title>
@@ -46,5 +47,5 @@ export const Services = () => {
             </div>
         </div>
     </>
-  )
+  ) */
 }
